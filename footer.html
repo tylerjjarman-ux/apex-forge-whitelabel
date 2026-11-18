@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ApexForge Academy – Footer</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;800&display=swap" rel="stylesheet">
+<style>
+  :root{--navy:#2F3541;--navy-d:#1E222B;--orange:#E8851A;--orange-d:#C2541A;}
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{height:100%;overflow:hidden;font-family:Montserrat,"Segoe UI",Arial,sans-serif;background:var(--navy-d)}
+  .foot{position:relative;min-height:100%;display:flex;align-items:center;justify-content:space-between;
+        gap:24px;flex-wrap:wrap;padding:14px 28px;color:#C9CED6;
+        background:linear-gradient(100deg,var(--navy-d) 0%,var(--navy) 100%);}
+  .foot::before{content:"";position:absolute;left:0;right:0;top:0;height:3px;
+        background:linear-gradient(90deg,var(--orange-d),var(--orange) 40%,#F5B04A 100%);}
+  .brand{display:flex;align-items:center;gap:10px}
+  .mark{height:34px;width:34px;flex:none}
+  
+  .word{display:flex;flex-direction:column;line-height:1}
+  .word b{font-weight:800;font-size:15px;letter-spacing:1.2px;color:#fff}
+  .word span{margin-top:4px;font-weight:600;font-size:7.5px;letter-spacing:2.6px;color:var(--orange)}
+  nav{display:flex;gap:22px;flex-wrap:wrap}
+  nav a{color:#E3E6EA;text-decoration:none;font-size:12px;font-weight:600;letter-spacing:.4px}
+  nav a:hover{color:var(--orange)}
+  .copy{font-size:11px;font-weight:500;letter-spacing:.3px;color:#9AA1AC}
+  @media (max-width:700px){.foot{justify-content:center;text-align:center}nav{justify-content:center}}
+</style>
+</head>
+<body>
+  <footer class="foot">
+    <div class="brand">
+      <svg class="mark" viewBox="0 0 100 100" aria-hidden="true">
+  <defs>
+    <linearGradient id="og2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F29A2E"/><stop offset="1" stop-color="#C2541A"/>
+    </linearGradient>
+    <clipPath id="inner2"><circle cx="50" cy="50" r="33"/></clipPath>
+  </defs>
+  <path d="M43.2,11.6 L44.2,4.4 L55.8,4.4 L56.8,11.6 L67.0,14.9 L72.2,9.7 L81.5,16.5 L78.1,22.9 L84.4,31.6 L91.6,30.4 L95.2,41.4 L88.6,44.6 L88.6,55.4 L95.2,58.6 L91.6,69.6 L84.4,68.4 L78.1,77.1 L81.5,83.5 L72.2,90.3 L67.0,85.1 L56.8,88.4 L55.8,95.6 L44.2,95.6 L43.2,88.4 L33.0,85.1 L27.8,90.3 L18.5,83.5 L21.9,77.1 L15.6,68.4 L8.4,69.6 L4.8,58.6 L11.4,55.4 L11.4,44.6 L4.8,41.4 L8.4,30.4 L15.6,31.6 L21.9,22.9 L18.5,16.5 L27.8,9.7 L33.0,14.9 Z" fill="#AEB4BE"/>
+  <circle cx="50" cy="50" r="33" fill="#FFFFFF"/>
+  <g clip-path="url(#inner2)">
+    <circle cx="50" cy="50" r="33" fill="url(#og2)"/>
+    <path d="M10,72 L36,44 L44,52 L58,32 L92,72 Z" fill="#2F3541"/>
+    <path d="M58,32 L66,43 L61,41 L57,46 L53,40 Z" fill="#E9ECEF"/>
+    <path d="M36,44 L41,49 L38,48 L35,51 L32,48 Z" fill="#E9ECEF"/>
+    <path d="M10,86 C30,64 62,60 92,70 L92,74 C64,66 34,70 10,92 Z" fill="#FFFFFF"/>
+  </g>
+</svg>
+      <div class="word"><b>APEXFORGE</b><span>INDUSTRIAL GROUP</span></div>
+    </div>
+    <nav>
+      <a href="#" target="_top">Safety Hub</a>
+      <a href="#" target="_top">Help Centre</a>
+      <a href="#" target="_top">Privacy</a>
+      <a href="#" target="_top">Terms of Use</a>
+    </nav>
+    <div class="copy">&copy; 2026 ApexForge Industrial Group. All rights reserved.</div>
+  </footer>
+</body>
+</html>
